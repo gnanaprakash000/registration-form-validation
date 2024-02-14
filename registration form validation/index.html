@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register form validation</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" id="form">
+        <h1>Registration</h1>
+        <div class="input_group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" placeholder="name" />
+          <div class="error"></div>
+        </div>
+        <div class="input_group">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" />
+          <div class="error"></div>
+        </div>
+        <div class="input_group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="password"
+          />
+          <img
+            src="C:\Users\GP\Desktop\projects\web development projects\registration form validation\eye-close.png"
+            alt=""
+            id="eyeicon"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="input_group">
+          <label for="cpassword">Comfirm Password</label>
+          <input type="password" id="cpassword" name="cpassword" />
+          <div class="error"></div>
+        </div>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
